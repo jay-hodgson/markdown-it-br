@@ -1,0 +1,27 @@
+.
+s <br> test
+.
+<p>s <br> test</p>
+.
+
+.
+a | b <Br> | in a table
+.
+<p>a | b <br> | in a table</p>
+.
+
+.
+bold with ** a line <BR> break in the middle ** of it
+.
+<p>bold with ** a line <br> break in the middle ** of it</p>
+.
+
+coverage
+.
+*~f
+.
+<p>*~f</p>
+.
+
+clean up init (constructor)
+remove icon
