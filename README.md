@@ -4,11 +4,11 @@
 [![NPM version](https://img.shields.io/npm/v/markdown-it-br.svg?style=flat)](https://www.npmjs.org/package/markdown-it-br)
 [![Coverage Status](https://img.shields.io/coveralls/jay-hodgson/markdown-it-br/master.svg?style=flat)](https://coveralls.io/r/jay-hodgson/markdown-it-br?branch=master)
 
-> Center text plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
+> BR plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
 __v1.+ requires `markdown-it` v4.+, see changelog.__
 
-`->Centered Text<-` => `<div style="text-align: center;">Centered Text</div>`
+`protect <br> <script>` => `protect <br>`
 
 
 ## Install
@@ -26,7 +26,7 @@ bower install markdown-it-br --save
 var md = require('markdown-it')()
             .use(require('markdown-it-br'));
 
-md.render('protect <br> from the input') // => 'protect <br> from the input'
+md.render('protect <br>') // => 'protect <br>'
 
 ```
 
